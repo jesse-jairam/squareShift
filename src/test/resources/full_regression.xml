@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="full-regression">
+    <parameter name="browser.properties" value="browser.properties"/>
+    <parameter name="login.properties" value="login.properties"/>
+    <parameter name="config.properties" value="config.properties"/>
+
+    <listeners>
+        <listener
+                class-name="com.squareshift.Suite.InitializationSuiteListener"/>
+    </listeners>
+
+    <test name="Scenario 01">
+        <classes>
+            <class name="com.squareshift.test.Scenario01Test" />
+        </classes>
+    </test>
+    <test name="Scenario 02">
+        <classes>
+            <class name="com.squareshift.test.Scenario02Test" />
+        </classes>
+    </test>
+    <test name="Scenario 03">
+        <classes>
+            <class name="com.squareshift.test.Scenario03Test" />
+        </classes>
+    </test>
+
+</suite>
