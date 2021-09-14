@@ -10,8 +10,9 @@ public class TestBase {
     protected static Logger log = Logger.getLogger(TestBase.class.getName());
 
     public void navigateToCNA() {
-      log.info("Navigating to Site :" + Settings.getTestUrl());
-      WebDriverManager.getDriver().navigate().to(Settings.getTestUrl());
+        log.info("Navigating to Site :" + Settings.getTestUrl());
+        WebDriverManager.getDriver().navigate().to(Settings.getTestUrl());
+       // WebDriverManager.getDriver().manage().window().maximize();
     }
 
     public void navigateToCNAInternational() {
