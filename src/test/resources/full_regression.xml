@@ -11,7 +11,7 @@
                 class-name="com.squareshift.Suite.InitializationSuiteListener"/>
     </listeners>
 
-    <test name="Scenario 01">
+ <!--   <test name="Scenario 01">
         <classes>
             <class name="com.squareshift.test.Scenario01Test" />
         </classes>
@@ -24,6 +24,11 @@
     <test name="Scenario 03">
         <classes>
             <class name="com.squareshift.test.Scenario03Test" />
+        </classes>
+    </test>-->
+    <test name="Amazon Scenario">
+        <classes>
+            <class name="com.squareshift.test.AmazonScenarioTest" />
         </classes>
     </test>
 
