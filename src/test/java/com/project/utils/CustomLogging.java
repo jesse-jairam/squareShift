@@ -1,6 +1,6 @@
-package com.squareshift.utils;
+package com.project.utils;
 
-import com.squareshift.driver.WebDriverManager;
+import com.project.driver.WebDriverManager;
 import org.apache.log4j.Logger;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -8,7 +8,7 @@ import org.testng.ITestResult;
 
 import com.relevantcodes.extentreports.LogStatus;
 
-import static com.squareshift.utils.TakeScreenShot.getScreenhot;
+import static com.project.utils.TakeScreenShot.getScreenhot;
 
 public class CustomLogging implements ITestListener {
 

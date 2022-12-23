@@ -1,4 +1,4 @@
-package com.squareshift.utils;
+package com.project.utils;
 
 import org.apache.log4j.Logger;
 import java.io.File;

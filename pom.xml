@@ -39,7 +39,7 @@
                         <property>
                             <name>listener</name>
                             <value>
-                                com.squareshift.utils.CustomLogging
+                                com.project.utils.CustomLogging
                             </value>
                         </property>
                     </properties>

@@ -3,33 +3,26 @@
 
 <suite name="full-regression">
     <parameter name="browser.properties" value="browser.properties"/>
-    <parameter name="login.properties" value="login.properties"/>
     <parameter name="config.properties" value="config.properties"/>
 
     <listeners>
         <listener
-                class-name="com.squareshift.Suite.InitializationSuiteListener"/>
+                class-name="com.project.Suite.InitializationSuiteListener"/>
     </listeners>
 
- <!--   <test name="Scenario 01">
+    <test name="Egypt Scenario">
         <classes>
-            <class name="com.squareshift.test.Scenario01Test" />
+            <class name="com.project.test.EgyptPlansTest" />
         </classes>
     </test>
-    <test name="Scenario 02">
+    <test name="UAE Scenario">
         <classes>
-            <class name="com.squareshift.test.Scenario02Test" />
+            <class name="com.project.test.UaePlansTest" />
         </classes>
     </test>
-    <test name="Scenario 03">
+    <test name="Algeria Scenario">
         <classes>
-            <class name="com.squareshift.test.Scenario03Test" />
-        </classes>
-    </test>-->
-    <test name="Amazon Scenario">
-        <classes>
-            <class name="com.squareshift.test.AmazonScenarioTest" />
+            <class name="com.project.test.AlgeriaPlansTest" />
         </classes>
     </test>
-
 </suite>

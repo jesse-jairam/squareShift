@@ -1,7 +1,7 @@
-package com.squareshift.test;
+package com.project.test;
 
-import com.squareshift.driver.WebDriverManager;
-import com.squareshift.utils.Settings;
+import com.project.driver.WebDriverManager;
+import com.project.utils.Settings;
 import org.apache.log4j.Logger;
 import org.testng.asserts.SoftAssert;
 
@@ -9,7 +9,7 @@ public class TestBase {
 
     protected static Logger log = Logger.getLogger(TestBase.class.getName());
 
-    public void navigateToCNA() {
+    public void navigateToPage() {
         log.info("Navigating to Site :" + Settings.getTestUrl());
         WebDriverManager.getDriver().navigate().to(Settings.getTestUrl());
        // WebDriverManager.getDriver().manage().window().maximize();

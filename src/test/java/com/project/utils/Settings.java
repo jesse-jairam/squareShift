@@ -1,4 +1,4 @@
-package com.squareshift.utils;
+package com.project.utils;
 
 import java.util.Properties;
 
@@ -10,7 +10,7 @@ public class Settings extends SettingsBase {
     private static final String KEY_BROWSERNAME = "browser.name";
     private static final String KEY_TESTURL = "test.url";
     private static final String DEFAULT_BROWSERNAME = "chrome";
-    private static final String DEFAULT_TESTURL = "https://www.amazon.in/";
+    private static final String DEFAULT_TESTURL = "https://subscribe.stctv.com/";
     private static final String BROWSERSETTINGSFOLDER = "browser";
     private static final String CONFIGSETTINGSFOLDER = "config";
     private static final String BROWSER_NAME = "BROWSER_NAME";
