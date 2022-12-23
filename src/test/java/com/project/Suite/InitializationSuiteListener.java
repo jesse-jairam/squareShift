@@ -1,7 +1,7 @@
-package com.squareshift.Suite;
+package com.project.Suite;
 
-import com.squareshift.driver.WebDriverManager;
-import com.squareshift.utils.Settings;
+import com.project.driver.WebDriverManager;
+import com.project.utils.Settings;
 import org.testng.ISuite;
 import org.testng.ISuiteListener;
 

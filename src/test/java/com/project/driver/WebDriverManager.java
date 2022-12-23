@@ -1,6 +1,6 @@
-package com.squareshift.driver;
+package com.project.driver;
 
-import com.squareshift.utils.Settings;
+import com.project.utils.Settings;
 import org.openqa.selenium.WebDriver;
 
 public class WebDriverManager {

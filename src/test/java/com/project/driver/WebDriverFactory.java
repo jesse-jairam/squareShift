@@ -1,4 +1,4 @@
-package com.squareshift.driver;
+package com.project.driver;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

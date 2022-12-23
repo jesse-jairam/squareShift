@@ -1,6 +1,6 @@
-package com.squareshift.utils;
+package com.project.utils;
 
-import com.squareshift.driver.WebDriverManager;
+import com.project.driver.WebDriverManager;
 import org.openqa.selenium.JavascriptExecutor;
 
 public class JSExecutor {

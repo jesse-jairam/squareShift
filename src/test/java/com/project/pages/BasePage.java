@@ -1,6 +1,6 @@
-package com.squareshift.pages;
+package com.project.pages;
 
-import com.squareshift.utils.JSExecutor;
+import com.project.utils.JSExecutor;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;

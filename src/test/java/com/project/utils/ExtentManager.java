@@ -1,4 +1,4 @@
-package com.squareshift.utils;
+package com.project.utils;
 
 import com.relevantcodes.extentreports.ExtentReports;
  
